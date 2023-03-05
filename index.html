@@ -8,7 +8,70 @@
 
   <body>
 
-    <h1>Hello World, we are software developers!</h1>
+    <header id="header">
+      <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="" id="header-img">
+      <nav id="nav-bar">
+        <ul>
+          <li class="nav-link"><a href="#features"> Feature</a></li>
+          <li class="nav-link"><a href="#video-section"> How It Works</a></li>
+          <li class="nav-link"><a href="#cards"> Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main">
+      <section id="title-header">
+        <h2>Handcrafted, home-made masterpieces</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input type="email" id="email" placeholder="Enter your email address">
+          <input type="submit" value="GET STARTED" id="submit">
+        </form>
+      </section>
+      <section id="features">
+        <h2 class="features-title">Premium Materials</h2>
+        <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase. </p>
+        <h2 class="features-title">Quality Assurance</h2>
+       <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+      </section>
+      <section id="video-section">
+        <iframe width="420" height="315" id="video"
+        src="https://www.youtube.com/embed/tgbNymZ7vqY">
+        </iframe>
+      </section>
+      <section id="cards">
+        <div class="card">
+          <div class="card-header">TENOR TROMBONE</div>
+          <div class="card-price">$600</div>
+          <div class="card-content">Lorem ipsum <br /> Lorem ipsum<br /> Lorem ipsum dolor <br /> Lorem ipsum</div>
+          <div class="card-footer">
+            <button id="card-button" type="submit">SELECT</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">BASS TROMBONE</div>
+          <div class="card-price">$900</div>
+          <div class="card-content">Lorem ipsum <br /> Lorem ipsum<br /> Lorem ipsum dolor <br /> Lorem ipsum</div>
+          <div class="card-footer"><button id="card-button" type="submit">SELECT</button></div>
+        </div>
+        <div class="card">
+          <div class="card-header">VALVE TROMBONE</div>
+          <div class="card-price">$1200</div>
+          <div class="card-content">Plays similar to a Trumpet<br /> Great for Jazz Bands<br /> Lorem ipsum dolor <br /> Lorem ipsum</div>
+          <div class="card-footer"><button id="card-button" type="submit">SELECT</button></div>
+        </div>
+      </section>
+    </main>
+    <footer id="footer">
+      <ul>
+        <li class="footer-links"><a href="">Privacy</a></li>
+        <li class="footer-links"><a href="">Terms</a></li>
+        <li class="footer-links"><a href="">Contact</a></li>
+      </ul>
+      <p id="footer-paragraph">Copyright 2023, Original Trombones</p>
+    </footer>
+
+
+
+
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
     <!--
