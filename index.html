@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:ital,wght@0,300;1,100&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/a6728f281f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
@@ -13,7 +17,7 @@
       <nav id="nav-bar">
         <ul>
           <li class="nav-link"><a href="#features"> Feature</a></li>
-          <li class="nav-link"><a href="#video-section"> How It Works</a></li>
+          <li class="nav-link"><a href="#footer"> How It Works</a></li>
           <li class="nav-link"><a href="#cards"> Pricing</a></li>
         </ul>
       </nav>
@@ -22,18 +26,37 @@
       <section id="title-header">
         <h2>Handcrafted, home-made masterpieces</h2>
         <form id="form" action="https://www.freecodecamp.com/email-submit">
-          <input type="email" id="email" placeholder="Enter your email address">
+          <input type="email" id="email" name="email" placeholder="Enter your email address">
           <input type="submit" value="GET STARTED" id="submit">
         </form>
       </section>
       <section id="features">
-        <h2 class="features-title">Premium Materials</h2>
+       <div class="icon"><i class="fa-solid fa-fire-flame-curved"></i> 
+        <div class="rapper">
+           </i></div> <div class="feature-content">
+              <h2 class="features-title">Premium Materials</h2>
         <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase. </p>
-        <h2 class="features-title">Quality Assurance</h2>
+           </div>
+         
+        </div>
+      
+        <div class="rapper">
+            <div class="icon"><i class="fa-solid fa-battery-full"></i> </div> <div class="feature-content">
+          <h2 class="features-title">Quality Assurance</h2>
        <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+          </div>
+       
+       </div>
+     
+       <div class="rapper">
+       <div class="icon"><i class="fa-solid fa-truck"></i></div> <div class="feature-content">
+            <h2 class="features-title">Fast Shipping</h2><p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+        </div>
+       </div>
+        
       </section>
       <section id="video-section">
-        <iframe width="420" height="315" id="video"
+        <iframe width="600" height="315" id="video"
         src="https://www.youtube.com/embed/tgbNymZ7vqY">
         </iframe>
       </section>
@@ -60,14 +83,17 @@
         </div>
       </section>
     </main>
-    <footer id="footer">
-      <ul>
-        <li class="footer-links"><a href="">Privacy</a></li>
-        <li class="footer-links"><a href="">Terms</a></li>
-        <li class="footer-links"><a href="">Contact</a></li>
-      </ul>
-      <p id="footer-paragraph">Copyright 2023, Original Trombones</p>
-    </footer>
+    <div id="footer">
+      <div class="float">
+        <ul>
+          <li class="footer-links"><a href="#features">Privacy</a></li>
+          <li class="footer-links"><a href="#footer">Terms</a></li>
+          <li class="footer-links"><a href="#cards">Contact</a></li>
+        </ul>
+        <p id="footer-paragraph">Copyright 2023, Original Trombones</p>
+      </div>
+      
+    </div>
 
 
 
